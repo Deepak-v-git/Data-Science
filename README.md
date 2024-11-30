@@ -7,8 +7,6 @@ This project demonstrates how machine learning can be used to predict product sa
 ## **Table of Contents**
 - [Objective](#objective)
 - [Data Source](#data-source)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Data Preprocessing](#data-preprocessing)
 - [Modeling](#modeling)
 - [Evaluation](#evaluation)
@@ -20,23 +18,6 @@ The goal of this project is to predict sales of products in various stores by an
 
 ## **Data Source**
 The dataset used in this project, **Big Sales Data**, is sourced from the YBI Foundation GitHub repository.
-
-## **Installation**
-To run this project, you need to install the following dependencies:
-
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
-```
-
-## **Usage**
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/Deepak-v-git/big-sales-prediction.git
-   ```
-2. Run the **sales_prediction.py** script to train the model and make predictions:
-   ```bash
-   python sales_prediction.py
-   ```
 
 ## **Data Preprocessing**
 - Missing values in the `Item_Weight` column are filled using the mean weight of the respective item type.
